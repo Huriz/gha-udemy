@@ -1,0 +1,11 @@
+name: 01b-hola-mundo
+#si quieres se puede usar on: [workflow_dispatch,push]
+on:
+  workflow_dispatch:
+  push:
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Hola Mundo
+      run: echo "Hola Mundo"
