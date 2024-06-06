@@ -4,6 +4,8 @@ on:
     issues:
         types:
             -   opened
+    path-ignore:
+        - '*.md' 
 
 jobs:
   hola-mundo:
